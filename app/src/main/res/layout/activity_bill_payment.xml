@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:background="@drawable/bg_main_menu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+
+    android:weightSum="4"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+  >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="ISP BILLING \n----------------\n BILL"
+            android:textAlignment="center"
+            android:textColor="#FFFF" />
+    </RelativeLayout>
+
+
+    <GridLayout
+
+        android:layout_marginTop="30dp"
+        android:columnCount="1"
+        android:rowCount="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:padding="30dp"
+       android:alignmentMode="alignBounds"
+
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cadviewPaymentuser"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            android:layout_weight="1"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="40dp">
+
+            <LinearLayout
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+
+                >
+
+                <ImageButton
+                    android:id="@+id/bill_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/bill_user"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="By User"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+
+                    />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </GridLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_main_menu"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_weight="4"
+        android:padding="16dp">
+
+        <TextView
+            android:textSize="30dp"
+            android:textColor="#FFFF"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="ISP BILLING" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:inputType="number"
+
+            android:id="@+id/Add_id_Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/addlistshaph"
+            android:hint="Id Number "
+            android:padding="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="6dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/Add_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/addlistshaph"
+            android:hint="Coustomer Name"
+            android:padding="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="6dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/Add_PhoneNuber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/addlistshaph"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:padding="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="6dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/Add_Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/addlistshaph"
+            android:hint="Address"
+            android:padding="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="6dp"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center">
+            <!--
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Active"
+            android:id="@+id/radio_button_active"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/radio_button_un_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UnActive"
+
+            />-->
+
+            <!--
+    </RadioGroup>-->
+
+            <ImageView
+                android:id="@+id/imagelode"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+
+
+                />
+
+            <Button
+
+                android:layout_marginTop="25dp"
+                android:id="@+id/uploadImageINtoGallary"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content"
+                android:text="Image"
+                android:background="@drawable/addlistshaph"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/Add_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:background="@drawable/addlistshaph"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

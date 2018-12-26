@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:textSize="40dp"
+        android:background="@drawable/bg_main_menu"
+        android:text="Update User"
+        android:id="@+id/update_lsitView_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:textSize="40dp"
+
+        android:background="@drawable/bg_main_menu"
+        android:text="Delete User"
+        android:id="@+id/delete_listView_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

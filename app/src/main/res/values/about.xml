@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about">
+        This application works as a simple client management system.  It is developed for Mr. Md. Kabir Hossain.\n\n
+Version:1\n
+Developed by: Team - Secure Soft\n\n
+
+    </string>
+</resources>

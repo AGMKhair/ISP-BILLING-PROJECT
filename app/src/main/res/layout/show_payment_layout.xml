@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="23dp"
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+         />
+
+
+        <TextView
+            android:textSize="16dp"
+
+            android:textAlignment="center"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+         />
+
+        <TextView
+            android:textSize="16dp"
+
+            android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+         />
+
+        <TextView
+        android:textAlignment="center"
+
+            android:textSize="16dp"
+        android:id="@+id/bandwth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+         />
+
+        <TextView
+        android:textAlignment="center"
+
+            android:textSize="16dp"
+        android:id="@+id/activeuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+         />
+
+        <TextView
+        android:textAlignment="center"
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textSize="16dp"
+
+        android:text="TextView"
+         />
+
+</LinearLayout>

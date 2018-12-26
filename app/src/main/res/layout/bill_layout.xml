@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main_menu"
+    android:layout_height="match_parent"
+    tools:context="com.example.sabbir.ispbilling.DeleteActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            app:titleMarginStart="100dp"
+            app:title=" Payment Add  "
+            android:textAlignment="center"
+            app:titleTextColor="#FFFF"
+            android:background="?attr/colorPrimaryDark"
+            android:minHeight="?attr/actionBarSize"
+            android:textColor="#FFFF"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <Spinner
+            android:id="@+id/spinner_payment_year"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:padding="1dp"
+            android:layout_margin="1.5dp"
+            android:background="@color/colorPrimaryDark"
+            android:entries="@array/year"
+            android:textAlignment="center">
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/spinner_payment_month"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:layout_margin="1.5dp"
+            android:padding="1dp"
+            android:entries="@array/month"
+            android:textAlignment="center">
+
+        </Spinner>
+
+        <Button
+
+            android:padding="1dp"
+            android:layout_margin="1.5dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#FFFF"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:id="@+id/button_payment_search"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="search"
+            />
+    </LinearLayout>
+
+
+
+
+        <ListView
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:id="@+id/payment_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+        </ListView>
+
+
+
+
+
+
+</LinearLayout>

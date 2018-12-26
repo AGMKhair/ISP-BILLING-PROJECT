@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.example.sabbir.ispbilling.BilInformatinShowActivity">
+
+<LinearLayout
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <Spinner
+        android:id="@+id/spinner_year"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/year"></Spinner>
+
+    <Spinner
+        android:textAlignment="center"
+        android:id="@+id/spinner_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/month"></Spinner>
+
+<!--
+    <Spinner
+        android:entries="@array/user_types"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />-->
+
+    <Button
+        android:id="@+id/save_payment_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Search"
+        android:textAlignment="center"
+        android:textColor="#FFFF" />
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

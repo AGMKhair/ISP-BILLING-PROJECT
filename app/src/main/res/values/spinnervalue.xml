@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <array name="month">
+
+            <item>Month</item>
+            <item>january</item>
+            <item>february</item>
+            <item>march</item>
+            <item>april</item>
+            <item>may</item>
+            <item>june</item>
+            <item>july</item>
+            <item>august</item>
+            <item>september</item>
+            <item>october</item>
+            <item>november</item>
+            <item>december</item>
+
+        </array>
+
+<array name="active">
+
+    <item>Amount</item>
+    <item>paid</item>
+    <item>unPaid</item>
+
+</array>
+
+
+    <array name="user_types">
+
+    <item>active</item>
+    <item>inactive</item>
+
+</array>
+
+
+    <string-array name="year">
+
+        <item>Year</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+
+    </string-array>
+
+
+    <array name="payment_type">
+
+<item>Payment Type</item>
+        <item>Cash</item>
+        <item>Bkash</item>
+
+    </array>
+</resources>

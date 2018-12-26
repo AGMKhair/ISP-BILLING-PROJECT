@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sabbir.ispbilling.ShowListActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main_menu"
+    >
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:titleMarginStart="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:title="Show All User Information"
+        app:titleTextColor="#FFFF"
+        android:background="?attr/colorPrimaryDark"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/EdittextSearch"
+            android:layout_width="198dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/searchshaple"
+            android:hint="Search User"
+            android:inputType="textPersonName"
+
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_search_black_24dp"
+
+            android:padding="10dp" />
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list_item_show_data"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textAlignment="center" />
+<!--
+    <com.google.android.gms.ads.AdView
+
+        android:id="@+id/adview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-6449076598303937/4725801312">
+
+    </com.google.android.gms.ads.AdView>-->
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+
+        <shape  android:shape="rectangle">
+
+            <stroke  android:width="@dimen/cardview_default_radius" android:color="#004D40" android:dashGap="@dimen/cardview_default_radius" ></stroke>
+            <corners   android:radius="500dp"></corners>
+
+        </shape>
+
+    </item>
+
+</selector>

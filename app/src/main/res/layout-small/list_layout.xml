@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/show_user_id"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+
+            android:id="@+id/show_user_name"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="name"
+            android:textAlignment="center"
+            android:textSize="17dp" />
+
+        <TextView
+
+
+            android:id="@+id/show_user_phone"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text=" phone "
+
+            android:textAlignment="center"
+            android:textSize="17dp" />
+
+        <TextView
+
+            android:id="@+id/show_user_address"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="address"
+            android:textAlignment="center"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView_Update_part"
+        android:layout_width="92dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:ignore="VectorDrawableCompat" />
+
+</LinearLayout>
